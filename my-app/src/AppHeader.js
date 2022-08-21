@@ -11,6 +11,9 @@ const AppHeader = () => {
                     /
                     <li><NavLink style={({ isActive }) => ({color: isActive ? 'white' : 'inherit' })}
                         to='/yup'>Yup</NavLink></li>
+                    /
+                    <li><NavLink style={({ isActive }) => ({color: isActive ? 'white' : 'inherit' })}
+                        to='/formik'>Formik</NavLink></li>
                 </ul>
             </nav>
         </header>
