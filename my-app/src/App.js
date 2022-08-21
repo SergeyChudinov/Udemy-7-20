@@ -4,6 +4,7 @@ import './app.scss';
 import Form from './Form';
 import FormYup from './FormYup';
 import AppHeader from "./AppHeader";
+import FormFormik from './FormFormik';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Form/>}/>              
             <Route path="/yup" element={<FormYup/>}/>
-            {/* <Route path="/comics/:comicId" element={<SingleComicPage/>}/> */}
+            <Route path="/formik" element={<FormFormik/>}/>
             {/* <Route path="*" element={<Page404/>}/> */}
           </Routes>
         </main>
